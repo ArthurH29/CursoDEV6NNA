@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <form action="cadastroSucesso.html" method="past"/> 
+         <fieldset>
+          <legend> Cadastro de Usuário</legend>   
+          <p>Nome Completo:</p>
+          <input type="text" name="NomeCompleto" placeholder=" Insira o nome" required />
+          <p>Senha:</p>
+          <input type="password" name="senha" placeholder=" Insira a senha"required/>
+          <br>
+          <p>Sexo:</p>
+          <input type="radio" name="sexo" value="M"/> Masculino
+          <input type="radio" name="sexo" value="F"/> Feminino
+          <p> Esportes Favoritos:</p>
+          <input type="checkbox" name="Volei" value="Volei"/> Volei 
+          <br>
+          <input type="checkbox" name="Basquete" value="Basquete"/> Basquete 
+          <br><br>
+          <p>Selecione a cidade </p>
+          <select name="cidade">
+          <option value="Belem"> Belém</option>
+          <option value="Ananindeua"> Ananindeua</option>
+          </select> 
+          <br><br>
+          <p>Observação</p>
+          <textarea cols="30" rows="5" placeholder="Insira as Observações" ></textarea>
+          <br><br>
+          <input type="submit" value="Enviar"/>
+          <input type="submit" value="Cancelar"/>
+          <input type="reset" value="limpar" />
+         </fieldset>
+      </form>
+    </body>
+</html>
