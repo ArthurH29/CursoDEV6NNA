@@ -12,22 +12,20 @@ and open the template in the editor.
          <link href="estilo.css" rel="stylesheet">
     </head>
     <body>
-        <p><b>Formulário de Cadastro</b></p>
+        <p id="fc"><b><center>Formulário de Cadastro</center></b></p>
         <fieldset id="dadospessoais">
             <legend>Dados pessoais</legend> 
             <label><b>Nome:</b></label>
-            <div id="nome">
-            <input type="text" name="Nome"required />
-            </div>
+            <input id="nome" type="text" name="Nome"required />
             <br>
             <label><b>E-mail:</b></label>
-            <input type="text" name="E-mail"required />
+            <input id="Email" type="text" name="E-mail"required />
             <br>
             <label><b>Cidade:</b></label>
-            <input type="text" name="Cidade"required />
+            <input id="Cidade" type="text" name="Cidade"required />
             <br>
             <label><b>Estado:</b></label>
-          <select name="Estado">
+          <select id="Estado" name="Estado">
           <option value="0">Escolha</option>    
           <option value="AC"> AC</option>
           <option value="AL"> AL</option>
@@ -77,8 +75,10 @@ and open the template in the editor.
         <br><br>
         <fieldset id="Ações">
            <legend>Ações</legend>
-           <input type="submit" value="Enviar"/>
-          <input type="reset" value="limpar" />
+           <center>  
+               <input id="enviar" type="submit" value="Enviar"/>
+          <input id="limpar" type="reset" value="limpar" />
+           </center>
         </fieldset>
     </body>
 </html>

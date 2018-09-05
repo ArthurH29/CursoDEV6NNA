@@ -1,16 +1,46 @@
 body{
-    font-family: Arial;
-    
+    font-family: Arial;   
+}
+#fc{
+    font-size: 60px;
+}
+#dadospessoais{
+    border-style: dashed;
 }
 #dadospessoais, #dadospessoais legend{
    background-color: lightblue; 
 }
-nome{
+#nome{
     background-color: khaki;
+}
+#Email{
+   background-color: khaki; 
+}
+#Cidade{
+ background-color: khaki;   
+}
+select{
+    background-color: khaki; 
+}
+#DadosProfissionais{
+     border-style: dashed;
 }
 #DadosProfissionais, #DadosProfissionais legend{
     background-color: lightcoral;
 }
+textarea{
+   background-color: khaki; 
+}
+#Ações{
+    border-style: dashed;
+}
 #Ações,#Ações legend{
     background-color: lightgreen;
 }
+#enviar{
+    background-color: green;
+}
+#limpar{
+    background-color: orangered;
+}
+    
