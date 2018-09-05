@@ -1,0 +1,16 @@
+body{
+    font-family: Arial;
+    
+}
+#dadospessoais, #dadospessoais legend{
+   background-color: lightblue; 
+}
+nome{
+    background-color: khaki;
+}
+#DadosProfissionais, #DadosProfissionais legend{
+    background-color: lightcoral;
+}
+#Ações,#Ações legend{
+    background-color: lightgreen;
+}

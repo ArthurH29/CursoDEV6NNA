@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário de Cadastro65666</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <p><b>Formulário de Cadastro</b></p>
+        <fieldset id="dadospessoais">
+            <legend>Dados pessoais</legend> 
+            <label><b>Nome:</b></label>
+            <div id="nome">
+            <input type="text" name="Nome"required />
+            </div>
+            <br>
+            <label><b>E-mail:</b></label>
+            <input type="text" name="E-mail"required />
+            <br>
+            <label><b>Cidade:</b></label>
+            <input type="text" name="Cidade"required />
+            <br>
+            <label><b>Estado:</b></label>
+          <select name="Estado">
+          <option value="0">Escolha</option>    
+          <option value="AC"> AC</option>
+          <option value="AL"> AL</option>
+          <option value="AP"> AP</option>
+          <option value="AM"> AM</option>
+          <option value="BA"> BA</option>
+          <option value="CE"> CE</option>
+          <option value="DF"> DF</option>
+          <option value="ES"> ES</option>
+          <option value="GO"> GO</option>
+          <option value="MA"> MA</option>
+          <option value="MT"> MT</option>
+          <option value="MS"> MS</option>
+          <option value="MG"> MG</option>
+          <option value="PA"> PA</option>
+          <option value="PB"> PB</option>
+          <option value="PR"> PR</option>
+          <option value="PE"> PE</option>
+          <option value="PI"> PI</option>
+          <option value="RN"> RS</option>
+          <option value="RJ"> RJ</option>
+          <option value="RO"> RO</option>
+          <option value="RR"> RR</option>
+          <option value="SC"> SC</option>
+          <option value="SP"> SP</option>
+          <option value="SE"> SE</option>
+          <option value="TO"> TO</option> 
+          </select> 
+        </fieldset>
+        <br><br>
+        <fieldset id="DadosProfissionais">
+          <legend>Dados Profissionais</legend>
+          <p><b>Cargo pretendido:</b></p>
+          <input type="radio" name="Analista de sistemas" value="Analista de sistemas"/> Analista de sistemas
+          <input type="radio" name="Analista de bancos de dados" value="Analista de bancos de dados"/> Analista de bancos de dados
+          <input type="radio" name="Analista de suporte" value="Analista de suporte"/> Analista de suporte
+          <br><br>
+          <p><b>Tecnologias de interesse:</b></p>
+          <input type="checkbox" name="Java" value="Java"/> Java
+          <input type="checkbox" name="HTML,CSS" value="HTML,CSS"/> HTML,CSS
+          <input type="checkbox" name="Javascript" value="Javascript"/> Javascript
+          <input type="checkbox" name="SQL" value="SQL"/> SQL
+          <br><br><br>
+          <p><b>Mini currículo:</b></p>
+          <textarea cols="180" rows="6" ></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset id="Ações">
+           <legend>Ações</legend>
+           <input type="submit" value="Enviar"/>
+          <input type="reset" value="limpar" />
+        </fieldset>
+    </body>
+</html>

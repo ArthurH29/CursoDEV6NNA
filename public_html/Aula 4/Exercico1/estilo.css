@@ -1,0 +1,25 @@
+body{
+   background-color: gray;
+}
+div{
+    font-size: 30Px;
+    font-family: helvetica;
+    background-color: white;
+    color: blue;
+    border-color: black;
+}
+p{
+  
+    font-size: 40px;
+    font-family: Arial;
+    color: pink;
+}
+#postagens{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: green;
+    
+}
+#conteudo{
+    color: gray;
+}
