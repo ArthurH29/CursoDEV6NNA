@@ -6,11 +6,18 @@
    display: flex;
 }
 img{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 #introducao{
     margin-left: 20px;
     
 }
+#post1{
+    background-color:olivedrab;
+    font-family:fantasy;
+     height:120px;
+}
+
+
 
