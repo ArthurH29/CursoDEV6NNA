@@ -1,0 +1,13 @@
+h3{
+  color: red;
+}
+table{
+    font-family: Tahoma;
+    font-size: 16pt;
+}
+th{
+    color: blue;
+}
+#media{
+    font-style: italic;
+}

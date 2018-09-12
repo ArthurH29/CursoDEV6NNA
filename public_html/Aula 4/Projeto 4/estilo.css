@@ -38,9 +38,17 @@ textarea{
     background-color: lightgreen;
 }
 #enviar{
+    color:white;
     background-color: green;
+    width: 80px;
+    height: 40px;
+    margin-right: 40px;
 }
 #limpar{
+    color:white;
     background-color: orangered;
+    width: 80px;
+    height: 40px
+    
 }
     
