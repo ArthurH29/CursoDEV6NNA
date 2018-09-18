@@ -14,10 +14,47 @@ img{
     
 }
 #post1{
-    background-color:olivedrab;
+    background-color: gainsboro;
     font-family:fantasy;
-     height:120px;
+     height:180px;
+    
+}
+#titu1{
+    color: red;
+    margin-left: 40px;   
+    display: flex;
+    margin-bottom: 10px;
+}
+#subt1{
+    color: black;
+    margin: 40px;   
+}
+#qpost{
+    color: silver;
+    margin: 40px;
 }
 
-
-
+#post2{
+    background-color: gainsboro;
+    font-family:fantasy;
+     height:180px;
+}     
+#titu2{
+    color: red;
+    margin-left: 40px;   
+    display: flex;
+    margin-bottom: 10px;
+}
+#subt2{
+    color: black;
+    margin: 40px;   
+}
+#qpost2{
+    color: silver;
+    margin: 40px;
+}
+#rodapê{
+    background-color:olivedrab;
+     font-family:fantasy;
+     height:80px;
+}
