@@ -1,0 +1,35 @@
+#PrimeiroTermo{
+   background-color:bisque;
+}
+#SegundoTermo{
+    background-color: bisque;
+}
+#soma{
+   background-color:blue;
+   color: white;
+   width: 40px;
+   height: 30px;
+}
+#sub{
+   background-color:blue;
+   color: white;
+   width: 40px;
+   height: 30px;
+}
+#multi{
+   background-color:blue;
+   color: white;
+   width: 40px;
+   height: 30px;
+}
+#divi{
+   background-color:blue;
+   color: white;
+   width: 40px;
+   height: 30px;
+}
+#Resultado{
+    color:red;
+    font-size: 20px;
+}
+

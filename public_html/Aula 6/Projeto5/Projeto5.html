@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <label>#1: </label>
+        <input  type="text" id="PrimeiroTermo" required />
+        <br><br>
+        <label>#2: </label>
+        <input  type="text" id="SegundoTermo" required />
+        <br><br><br>
+        <input id="soma" type="button" value="+" onclick="Soma()"/>
+        <input id="sub" type="button" value="-" onclick="Subtracao()"/>
+         <input id="multi" type="button" value="*" onclick="Multiplicacao()"/>
+         <input id="divi"type="button" value="/" onclick="Divisao()"/>
+         <br><br>
+         <label id="Resultado"></label>         
+          
+         <script>
+              function Soma(){
+               var n1 = parseInt(document.getElementById("PrimeiroTermo").value);
+               var n2 = parseInt(document.getElementById("SegundoTermo").value);
+               var soma =n1 + n2;
+               document.getElementById("Resultado").textContent = "Resultado: "+ soma;
+              }
+              function Subtracao(){
+               var n1 = parseInt(document.getElementById("PrimeiroTermo").value);
+               var n2 = parseInt(document.getElementById("SegundoTermo").value);
+               var sub = n1 - n2;
+               document.getElementById("Resultado").textContent = "Resultado: "+ sub;
+              }
+              function Multiplicacao(){
+               var n1 = parseInt(document.getElementById("PrimeiroTermo").value);
+               var n2 = parseInt(document.getElementById("SegundoTermo").value);
+               var multi = n1 * n2;
+               document.getElementById("Resultado").textContent = "Resultado: "+ multi;
+              }
+              function Divisao(){
+               var n1 = parseInt(document.getElementById("PrimeiroTermo").value);
+               var n2 = parseInt(document.getElementById("SegundoTermo").value);
+               var divi = n1 / n2;
+               document.getElementById("Resultado").textContent = "Resultado: "+ divi;
+              }
+              
+      
+             
+             
+             
+         </script>
+    </body>
+</html>
