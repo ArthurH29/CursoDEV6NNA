@@ -7,8 +7,8 @@ function validarLogin() {
     var login = document.getElementById("login").value;
     var senha = document.getElementById("senha").value;
     if (login == "admin" && senha == "web123") {
-     window.location.href = "pagina_inincial.html";
-     console.log("aqui");
+        window.location.href = "pagina_inincial.html";
+        console.log("aqui");
     }
 }
 function MultiplicacaoT() {
@@ -18,7 +18,7 @@ function MultiplicacaoT() {
     document.getElementById("areaT");
     document.getElementById("area1").value = multi;
 }
-function MultiplicacaoQ(){
+function MultiplicacaoQ() {
     var lado = parseInt(document.getElementById("lado").value);
     var multi = lado * lado;
     document.getElementById("areaQ");
