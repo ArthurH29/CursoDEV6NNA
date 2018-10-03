@@ -23,13 +23,18 @@ and open the template in the editor.
                             <tr>
                                 <th scope="col">Triângulo</th>
                                 <th scope="col">Qualdrado</th>
-
+                                <th scope="col">Circulo</th>
+                                <th scope="col">Trapézio</th>
+                                <th scope="col">Retângulo</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td><img src="2DF9E.jpg" width="300px"/></td>
                                 <td><img src="quadrado amarelo.jpg" width="260px" /></td>
+                                <td><img src="1200px-Disc_Plain_grey.svg.png" width="270px"/></td>
+                                <td><img src="image351.png" width="320px"/></td>
+                                <td><img src="retangulo.gif" width="500px"/></td>
                             </tr>
                             <tr>
                                 <td><div class="input-group input-group-lg">
@@ -46,6 +51,19 @@ and open the template in the editor.
                                         <input id="lado" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                                     </div>
                                 </td>
+                                 <td><div class="input-group input-group-lg">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Raio:</span>
+                                        </div>
+                                        <input id="raio" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                    </div>
+                                      <td><div class="input-group input-group-lg">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Base maior:</span>
+                                        </div>
+                                        <input id="basemaior" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                    </div>
+                                </td>
                             <tr>
                                 <td>
                                     <div class="input-group input-group-lg">
@@ -54,12 +72,19 @@ and open the template in the editor.
                                         </div>
                                         <input id="altura" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                                     </div>
+                                     <div class="input-group input-group-lg">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Base menor:</span>
+                                        </div>
+                                        <input id="raio" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                                    </div>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td scope="row" ><button id="areaT" onclick="MultiplicacaoT()" type="button" class="btn btn-primary btn-lg btn-block">Calcular Área</button</td>
                                 <td scope="row" ><button id="areaQ" onclick="MultiplicacaoQ()"type="button" class="btn btn-primary btn-lg btn-block">Calcular Área</button</td>
+                                <td scope="row" ><button id="areaC" onclick="MultiplicacaoC()"type="button" class="btn btn-primary btn-lg btn-block">Calcular Área</button</td>
                             </tr>
 
                             <tr>
